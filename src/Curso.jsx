@@ -17,7 +17,7 @@ const Curso = ({title, image, price, profesor,id}) => (
       <div className="card__data s-border s-radius-br s-radius-bl s-pxy-2">
          <h3 className="center">{title ? title:'No'}</h3>
          <div className="s-main-center">
-            <a className="button--ghost-alert button--tiny" href="#">{`$ ${price} USD`}</a>
+            <a className="button--ghost-alert button--tiny" href="https://ed.team/">{`$ ${price} USD`}</a>
          </div>
          <div className="s-main-center">
            <h6>{`Profesor: ${profesor}`}</h6>

@@ -5,7 +5,7 @@ import App from './App';
 
 const root =  document.getElementById('root')
 // crear un elemento y reindezarlo en pantalla recibe tres parametros: 1.componente 2.propiedades y 3.hijos 
-const elemento = React.createElement("h1",{className:"saludos"},"Hola Mundo Sin JSX")
+//const elemento = React.createElement("h1",{className:"saludos"},"Hola Mundo Sin JSX")
 // render necesita dos parametros 1.El Elemento 2.el nodo del documento html donde renderizar.
 //ReactDOM.render(elemento,root) sin jsx
 // con jsx
